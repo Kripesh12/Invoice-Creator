@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <main>
+            <div class="upper-card">
+                <h1>Invoice Creator</h1>
+                <p>Thanks for choosing GoodCorp, LLC!</p>
+            </div>
+            <div class="lower-card">
+                <div class="btns">
+                    <button id="wash-car-btn">Wash Car:$10</button>
+                    <button id="mow-lawn-btn">Mow Lawn:$20</button>
+                    <button id="pull-weeds-btn">Pull Weeds:$30</button>
+                </div>
+                <div class="main-invoice-title">
+                    <div class="title">
+                        <p>TASK</p>
+                        <p>TOTAL</p>
+                    </div> 
+                </div>
+                <div class="main-invoice">
+                
+                </div>
+                <div class="underline"></div>
+                <div class="footer">
+                    <div class="footer-heading">
+                        <p>NOTES</p>
+                        <p>TOTAL AMOUNT</p>
+                    </div>
+
+                    <div class="net-total">
+                        <p id="notes"></p>
+                        <h1 id="total-amt">$0</h1>
+                    </div>
+                    
+                </div>
+                <button id="send-invoice">Send invoice</button>
+            </div>
+        </main>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
